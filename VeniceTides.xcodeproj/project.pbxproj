@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B72C313257C225600A46528 /* UIView+TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72C312257C225600A46528 /* UIView+TinyConstraints.swift */; };
 		8BC80BD8257BE108003E19CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80BD7257BE108003E19CE /* AppDelegate.swift */; };
 		8BC80BDA257BE108003E19CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80BD9257BE108003E19CE /* SceneDelegate.swift */; };
-		8BC80BDC257BE108003E19CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80BDB257BE108003E19CE /* ViewController.swift */; };
-		8BC80BDF257BE108003E19CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC80BDD257BE108003E19CE /* Main.storyboard */; };
 		8BC80BE2257BE108003E19CE /* VeniceTides.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80BE0257BE108003E19CE /* VeniceTides.xcdatamodeld */; };
 		8BC80BE4257BE109003E19CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC80BE3257BE109003E19CE /* Assets.xcassets */; };
 		8BC80BE7257BE109003E19CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC80BE5257BE109003E19CE /* LaunchScreen.storyboard */; };
+		8BC80C03257BE2B8003E19CE /* NavigatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80C02257BE2B8003E19CE /* NavigatorViewController.swift */; };
+		8BC80C06257BE319003E19CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80C05257BE319003E19CE /* HomeViewController.swift */; };
+		8BC80C09257BE320003E19CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80C08257BE320003E19CE /* HomeView.swift */; };
+		8BC80C0C257BE32A003E19CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80C0B257BE32A003E19CE /* HomeViewModel.swift */; };
+		FC898C96BB00B13454A539B5 /* Pods_VeniceTides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434EA05AEB3F8ED22A3FCE23 /* Pods_VeniceTides.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		434EA05AEB3F8ED22A3FCE23 /* Pods_VeniceTides.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeniceTides.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B72C312257C225600A46528 /* UIView+TinyConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TinyConstraints.swift"; sourceTree = "<group>"; };
 		8BC80BD4257BE108003E19CE /* VeniceTides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeniceTides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC80BD7257BE108003E19CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC80BD9257BE108003E19CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BC80BDB257BE108003E19CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BC80BDE257BE108003E19CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BC80BE1257BE108003E19CE /* VeniceTides.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeniceTides.xcdatamodel; sourceTree = "<group>"; };
 		8BC80BE3257BE109003E19CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC80BE6257BE109003E19CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC80BE8257BE109003E19CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC80C02257BE2B8003E19CE /* NavigatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorViewController.swift; sourceTree = "<group>"; };
+		8BC80C05257BE319003E19CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BC80C08257BE320003E19CE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8BC80C0B257BE32A003E19CE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A343D9667C726541B7E6A87E /* Pods-VeniceTides.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceTides.release.xcconfig"; path = "Target Support Files/Pods-VeniceTides/Pods-VeniceTides.release.xcconfig"; sourceTree = "<group>"; };
+		CB16E74DBB3DEE1C4F09D19E /* Pods-VeniceTides.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceTides.debug.xcconfig"; path = "Target Support Files/Pods-VeniceTides/Pods-VeniceTides.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC898C96BB00B13454A539B5 /* Pods_VeniceTides.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B72C311257C224800A46528 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B72C312257C225600A46528 /* UIView+TinyConstraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8BC80BCB257BE108003E19CE = {
 			isa = PBXGroup;
 			children = (
 				8BC80BD6257BE108003E19CE /* VeniceTides */,
 				8BC80BD5257BE108003E19CE /* Products */,
+				F53BEED016EA6352A8F9B3C7 /* Pods */,
+				C76480553A8D115EC1868D83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +79,84 @@
 		8BC80BD6257BE108003E19CE /* VeniceTides */ = {
 			isa = PBXGroup;
 			children = (
-				8BC80BD7257BE108003E19CE /* AppDelegate.swift */,
-				8BC80BD9257BE108003E19CE /* SceneDelegate.swift */,
-				8BC80BDB257BE108003E19CE /* ViewController.swift */,
-				8BC80BDD257BE108003E19CE /* Main.storyboard */,
+				8B72C311257C224800A46528 /* Extensions */,
+				8BC80BF0257BE11E003E19CE /* Data */,
+				8BC80BEF257BE117003E19CE /* Domain */,
+				8BC80BF1257BE12C003E19CE /* Presentation */,
 				8BC80BE3257BE109003E19CE /* Assets.xcassets */,
-				8BC80BE5257BE109003E19CE /* LaunchScreen.storyboard */,
 				8BC80BE8257BE109003E19CE /* Info.plist */,
 				8BC80BE0257BE108003E19CE /* VeniceTides.xcdatamodeld */,
+				8BC80BD7257BE108003E19CE /* AppDelegate.swift */,
+				8BC80BD9257BE108003E19CE /* SceneDelegate.swift */,
 			);
 			path = VeniceTides;
+			sourceTree = "<group>";
+		};
+		8BC80BEF257BE117003E19CE /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8BC80BF0257BE11E003E19CE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8BC80BF1257BE12C003E19CE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8BC80BFC257BE1FD003E19CE /* Home */,
+				8BC80BFB257BE1F7003E19CE /* Navigator */,
+				8BC80BF3257BE19E003E19CE /* Splash */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8BC80BF3257BE19E003E19CE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				8BC80BE5257BE109003E19CE /* LaunchScreen.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		8BC80BFB257BE1F7003E19CE /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				8BC80C02257BE2B8003E19CE /* NavigatorViewController.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		8BC80BFC257BE1FD003E19CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BC80C05257BE319003E19CE /* HomeViewController.swift */,
+				8BC80C08257BE320003E19CE /* HomeView.swift */,
+				8BC80C0B257BE32A003E19CE /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C76480553A8D115EC1868D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				434EA05AEB3F8ED22A3FCE23 /* Pods_VeniceTides.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F53BEED016EA6352A8F9B3C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB16E74DBB3DEE1C4F09D19E /* Pods-VeniceTides.debug.xcconfig */,
+				A343D9667C726541B7E6A87E /* Pods-VeniceTides.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC80BEB257BE109003E19CE /* Build configuration list for PBXNativeTarget "VeniceTides" */;
 			buildPhases = (
+				C27589E3554E8F21B16E0BC8 /* [CP] Check Pods Manifest.lock */,
 				8BC80BD0257BE108003E19CE /* Sources */,
 				8BC80BD1257BE108003E19CE /* Frameworks */,
 				8BC80BD2257BE108003E19CE /* Resources */,
+				CC6A1F4F195BB7686BE9F4A8 /* [CP] Embed Pods Frameworks */,
+				8B2E58CA257C00BD006310F1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,35 +221,89 @@
 			files = (
 				8BC80BE7257BE109003E19CE /* LaunchScreen.storyboard in Resources */,
 				8BC80BE4257BE109003E19CE /* Assets.xcassets in Resources */,
-				8BC80BDF257BE108003E19CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B2E58CA257C00BD006310F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C27589E3554E8F21B16E0BC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeniceTides-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6A1F4F195BB7686BE9F4A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceTides/Pods-VeniceTides-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceTides/Pods-VeniceTides-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeniceTides/Pods-VeniceTides-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BC80BD0257BE108003E19CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BC80BDC257BE108003E19CE /* ViewController.swift in Sources */,
+				8BC80C06257BE319003E19CE /* HomeViewController.swift in Sources */,
 				8BC80BD8257BE108003E19CE /* AppDelegate.swift in Sources */,
+				8BC80C0C257BE32A003E19CE /* HomeViewModel.swift in Sources */,
 				8BC80BDA257BE108003E19CE /* SceneDelegate.swift in Sources */,
+				8BC80C09257BE320003E19CE /* HomeView.swift in Sources */,
+				8BC80C03257BE2B8003E19CE /* NavigatorViewController.swift in Sources */,
 				8BC80BE2257BE108003E19CE /* VeniceTides.xcdatamodeld in Sources */,
+				8B72C313257C225600A46528 /* UIView+TinyConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8BC80BDD257BE108003E19CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BC80BDE257BE108003E19CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8BC80BE5257BE109003E19CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +433,7 @@
 		};
 		8BC80BEC257BE109003E19CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB16E74DBB3DEE1C4F09D19E /* Pods-VeniceTides.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +452,7 @@
 		};
 		8BC80BED257BE109003E19CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A343D9667C726541B7E6A87E /* Pods-VeniceTides.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
